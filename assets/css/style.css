@@ -96,7 +96,7 @@ container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.n
 ****************/
 .header-container {
     min-height: 100vh;
-    background-image: url(/assets/img/apple-book.jpg);
+    background-image: url({{ site.url }}/assets/img/apple-book.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
