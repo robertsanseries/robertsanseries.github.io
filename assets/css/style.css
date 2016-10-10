@@ -33,7 +33,7 @@ h1 {
     text-rendering: geometricPrecision;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
 }
 
@@ -96,7 +96,6 @@ container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.n
 ****************/
 .header-container {
     min-height: 100vh;
-    background-image: url({{ site.url }}/assets/img/apple-book.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,6 +106,9 @@ container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.n
     margin-top: -10%;
 }
 
+.logo{
+    margin-top: 10%;
+}
 
 /**************** 
 * CSS - Content *
@@ -202,11 +204,19 @@ footer ul li {
     color: #ffffff;
 }
 
+.green{
+    color: #009688;
+}
+
+.red{
+    color: #D50000;
+}
+
 .black a, .black a:hover{
     color: #000000;
 }
 
-.correo-yellow a, .correo-yellow a:hover{
+.yellow, .correo-yellow a, .correo-yellow a:hover{
     color: #FFAB00;
 }
 
@@ -214,3 +224,100 @@ footer ul li {
     color: #795548;
 }
 
+/*******************************
+* CSS - Efeito ao passar mouse *
+********************************/
+a.github:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+a.politica:hover{
+    color: #FFAB00;
+    text-decoration: none;
+}
+
+a.googleplus:hover{
+    color: #BF360C;
+    text-decoration: none;
+}
+
+a.musica:hover{
+     color: #FF5722;
+    text-decoration: none;
+}
+
+
+.seta{
+    font-size: 70%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+/*********************
+* CSS - Cores icones *
+**********************/
+.icon-musica{
+     color: #FF5722;
+}
+
+.icon-messenge{
+    color: #FFAB00;
+}
+
+.body-musica{
+    background-color: #DD2C00;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.body-politica{
+    background-color: #FFAB00;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);   
+}
+
+/*************************
+* CSS - Cards responsivo *
+**************************/
+div.img {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.img:hover {
+    border: 1px solid #777;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.img iframe {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
