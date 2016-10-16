@@ -40,48 +40,34 @@ a, a:hover {
 /*************
 * CSS - Nav  *
 **************/
-.navbar-default {
-    background-color: rgba(0, 0, 0, 0.0);
-    border-color: rgba(0, 0, 0, 0.0);
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: rgba(0, 0, 0, 0.0);
-    background-color: rgba(0,0,0, 0.0);
+nav ul li {
+    float: left;
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand{
-    color: #ffffff;
-    background-color: rgba(0,0,0, 0.0);
+nav ul li a {
+    display: block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #ffffff;
-    background-color: rgba(0,0,0, 0.0);
+nav ul li a:hover {
+    color: #CFD8DC;
 }
 
-container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: -15px;
-    background-color: rgba(0,0,0, 0.0);
+.space{
+    float: right;
 }
 
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: -15px;
-}    
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: rgba(0,0,0, 0.0);
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
-    color: #ffffff;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #ffffff;
-    background-color: transparent;
-}
 
 .logo{
     font-weight: normal;
@@ -99,24 +85,38 @@ container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.n
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    top: 0;
-    line-height: 0;
     height: auto;
     color: rgba(255, 255, 255, 0.9);
-    margin-top: -10%;
+    margin-top: -15%;
+    float: top;
 }
 
-.logo{
-    margin-top: 10%;
-}
 
 /**************** 
 * CSS - Content *
 *****************/
 .intro{
     color: #ffffff;
-    margin-top: 10%;
+    margin-top: -20%;
     text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .intro{
+        color: #ffffff;
+        margin-top: -60%;
+        margin-bottom: 50%;    
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .intro{
+        color: #ffffff;
+        margin-top: -80%;
+        margin-bottom: 70%;
+        text-align: center;
+    }
 }
 
 .content{
@@ -124,16 +124,17 @@ container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.n
 }
 
 .sub-title-default{
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     line-height: 1.15em;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     text-rendering: geometricPrecision;
+    margin: 0% 8% 0% 8%
 }
 
 .space-title{
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 /***************
@@ -212,6 +213,10 @@ footer ul li {
     color: #D50000;
 }
 
+.orange:hover{
+    color: #FF3D00
+}
+
 .black a, .black a:hover{
     color: #000000;
 }
@@ -222,6 +227,10 @@ footer ul li {
 
 .brown a, .brown a:hover{
     color: #795548;
+}
+
+.correo:hover{
+    color: #FFAB00;
 }
 
 /*******************************
@@ -321,3 +330,5 @@ div.desc {
         width: 100%;
     }
 }
+
+
