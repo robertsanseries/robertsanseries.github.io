@@ -154,15 +154,29 @@ footer {
     line-height: 48px;
 }
 
-footer ul {
+
+.icons {
+    background-color: @transparent;
+    box-sizing: border-box;
+    color: #777;
+    font-size: 12px;
+    line-height: 48px;
+    padding: 16px 0;
+    text-align: center;
+    width: 100%;
+    color: #777;
+    font-size: 12px;
+    line-height: 48px;
+}
+
+.icons ul {
     display: inline-block;
     list-style: none;
     padding: 0;
     text-align: center;
 }
 
-footer ul li {
-    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05) );
+.icons ul li {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07), inset 0 1px 0 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -185,16 +199,65 @@ footer ul li {
 /***************
 * CSS - Cores *
 ****************/
-.dark-blue a, .dark-blue a:hover{
-    color: #0D47A1;
+.weak-blue li{
+    color: #FFFFFF;
+    background-color: #0091EA;
 }
 
-.weak-blue a, .weak-blue a:hover{
+.weak-blue li:hover{
     color: #0091EA;
+    background-color: #FFFFFF;
 }
 
-.dark-orange a, .dark-orange a:hover{
+.black li{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.black li:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.dark-blue li{
+    color: #FFFFFF;
+    background-color: #0D47A1;
+}
+
+.dark-blue :hover{
+    color: #0D47A1;
+    background-color: #FFFFFF;
+}
+
+.dark-orange li{
+    color: #FFFFFF;
+    background-color: #BF360C;
+}
+
+.dark-orange li:hover{
     color: #BF360C;
+    background-color: #FFFFFF;
+}
+
+
+.brown li{
+    color: #FFFFFF;
+    background-color: #795548;
+}
+
+.brown li:hover{
+    color: #795548;
+    background-color: #FFFFFF;
+}
+
+.correo-yellow li{
+    color: #FFFFFF;
+    background-color: #FFAB00;
+}
+
+.correo-yellow li:hover{
+    color: #FFAB00;
+    background-color: #FFFFFF;
 }
 
 .weak-orange a, .weak-orange a:hover{
@@ -217,17 +280,11 @@ footer ul li {
     color: #FF3D00
 }
 
-.black a, .black a:hover{
-    color: #000000;
-}
-
-.yellow, .correo-yellow a, .correo-yellow a:hover{
+.yellow{
     color: #FFAB00;
 }
 
-.brown a, .brown a:hover{
-    color: #795548;
-}
+
 
 .correo:hover{
     color: #FFAB00;
