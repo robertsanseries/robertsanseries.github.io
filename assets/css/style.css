@@ -50,6 +50,7 @@ nav ul {
 
 nav ul li {
     float: left;
+    font-size: 18px;
 }
 
 nav ul li a {
@@ -105,7 +106,7 @@ nav ul li a:hover {
     .intro{
         color: #ffffff;
         margin-top: -60%;
-        margin-bottom: 50%;    
+        margin-bottom: 50%;
         text-align: center;
     }
 }
@@ -120,7 +121,7 @@ nav ul li a:hover {
 }
 
 .content{
-    margin: 5% 0% 8% 0%; 
+    margin: 5% 0% 12% 0%;
 }
 
 .sub-title-default{
@@ -137,6 +138,11 @@ nav ul li a:hover {
     margin-top: 7%;
 }
 
+
+#cont{
+    margin-top: 10%;
+}
+
 /***************
 * CSS - Footer *
 ****************/
@@ -145,13 +151,12 @@ footer {
     box-sizing: border-box;
     color: #777;
     font-size: 12px;
-    line-height: 48px;
+    line-height: 20px;
     padding: 16px 0;
     text-align: center;
     width: 100%;
     color: #777;
     font-size: 12px;
-    line-height: 48px;
 }
 
 

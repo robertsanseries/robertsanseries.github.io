@@ -11,7 +11,7 @@ window.onload = function() {
 }
 
 function time() {
-	setTimeout(function(){ finaly(); }, 3000);
+	setTimeout(function(){ finaly(); }, 2000);
 }
 	
 function finaly(){
