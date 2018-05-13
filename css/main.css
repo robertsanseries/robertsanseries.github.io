@@ -1,0 +1,136 @@
+html, body {
+    background-color: #fff;
+    color: #282828;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+footer {
+    color: #282828;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 400;  
+}
+
+a {
+    text-decoration: none;
+    color: #3E7ECC;
+}
+
+img {
+    max-width: 100%;
+}
+
+#showcase-grid li {
+    display: inline-block;
+    margin: 25px;
+    padding: 0;
+}
+
+#showcase-grid a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#showcase-grid a:hover {
+    color: #3E7ECC;
+}
+
+#showcase-grid img {
+    display: block;
+    width: 110px;
+    margin: 12px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: relative;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 104px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title2{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links > a:hover {
+    background-color: #3E7ECC;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.read-more {
+    display:inline-block;
+    font-style:normal;
+    padding-left:2px;
+}
+
+.fas-hover {
+    transform: translateX(13px);
+}
+
+.bg-white {
+    background-color: #FAFAFA;
+}
+
+.p-title {
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+    color: #636b6f;
+    font-weight: 500;
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 5% 15% 0% 15%;
+    color: #150808;
+}
