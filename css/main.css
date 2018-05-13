@@ -167,6 +167,7 @@ img {
 
 #menu-scrow-center ul li {
     display: inline;
+    text-align: center;
 }
 
 #menu-scrow-center ul li a {
@@ -175,7 +176,7 @@ img {
     float: left;
     font-family: 'Quicksand', sans-serif;
     left: 15px;
-    padding: 1% 4%;
+    padding: 1% 2%;
     position: relative;
     text-decoration: none;
 }
