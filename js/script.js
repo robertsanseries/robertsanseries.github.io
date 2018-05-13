@@ -14,4 +14,14 @@ $(document).ready(function() {
     $('#item-karim').hover(function() {
         $('#fas-karim').toggleClass('fas-hover');
     });
+
+
+    var nav = $('#menu-scrow');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 85) {
+            nav.slideDown();
+        } else {
+            nav.slideUp();
+        }
+    });
 });

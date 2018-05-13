@@ -49,6 +49,10 @@ img {
     margin: 12px;
 }
 
+#home {
+    font-size: 17px;
+}
+
 .full-height {
     height: 100vh;
 }
@@ -133,4 +137,49 @@ img {
     font-weight: 400;
     padding: 5% 20% 0% 20%;
     color: #150808;
+}
+
+/*==================================================*/
+
+#menu-scrow{
+    position: fixed;
+    width: 100%;
+    display: none;
+    z-index:12;
+    top: 0px;
+    background-color:#323232;
+}
+
+#menu-scrow-center{
+    margin: auto;
+    width: 1000px;    
+}
+
+#menu-scrow-center ul{
+    font-size: 14px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    top: -130px;
+    width: 100%;
+    z-index: 11;    
+}
+
+#menu-scrow-center ul li {
+    display: inline;
+}
+
+#menu-scrow-center ul li a {
+    border: medium none;
+    color: #FCFCFC;
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+    left: 15px;
+    padding: 1% 4%;
+    position: relative;
+    text-decoration: none;
+}
+
+#menu-scrow-center ul li a:hover {
+    color: #9D9D9D;
 }
