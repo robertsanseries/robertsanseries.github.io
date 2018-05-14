@@ -49,10 +49,6 @@ img {
     margin: 12px;
 }
 
-#link-home {
-    font-size: 17px;
-}
-
 .full-height {
     height: 100vh;
 }
@@ -79,6 +75,7 @@ img {
 
 .title {
     font-size: 74px;
+    font-weight: 400;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -93,14 +90,15 @@ img {
     color: #636b6f;
     padding: 0 25px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .links > a:hover {
-    background-color: #3E7ECC;
+    padding: 3px 25px;
+    background-color: #272727;
     color: #fff;
     border-radius: 10px;
 }
@@ -139,48 +137,44 @@ img {
     color: #150808;
 }
 
-/*==================================================*/
-
-#menu-scrow{
+.topnav {
+    overflow: hidden;
+    background-color:#fff;
     position: fixed;
     width: 100%;
-    display: none;
     z-index:12;
     top: 0px;
-    background-color:#323232;
 }
 
-#menu-scrow-center{
-    margin: auto;
-    width: 1000px;    
+.item-none {
+    display: none;
 }
 
-#menu-scrow-center ul{
-    font-size: 14px;
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-    top: -130px;
-    width: 100%;
-    z-index: 11;    
-}
-
-#menu-scrow-center ul li {
-    display: inline;
-    text-align: center;
-}
-
-#menu-scrow-center ul li a {
-    border: medium none;
-    color: #FCFCFC;
-    float: left;
+.topnav a {
     font-family: 'Quicksand', sans-serif;
-    left: 15px;
-    padding: 1% 2%;
-    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 10px 16px;
     text-decoration: none;
 }
 
-#menu-scrow-center ul li a:hover {
+.topnav a:hover {
+  color: #9D9D9D;
+}
+
+.topnav a.active {
     color: #9D9D9D;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.ciano-descrition {
+  width: 100%;
+  margin-left: 100%;
+  background-color: #eee;
 }

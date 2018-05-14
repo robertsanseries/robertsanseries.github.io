@@ -15,12 +15,27 @@ $(document).ready(function() {
         $('#fas-karim').toggleClass('fas-hover');
     });
 
-    var nav = $('#menu-scrow');
+    var nav = $('.item-none');
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 85) {
+        if ($(this).scrollTop() > 105) {
+            $('.topnav').css('background', '#353535');
+            $('.topnav a').css('color', 'white');
             nav.slideDown();
         } else {
+            $('.topnav').css('background', 'white');
+            $('.topnav a').css('color', 'black');
             nav.slideUp();
         }
+    });
+
+
+    var contentLastMarginLeft = 0;
+    $(".wrap").click(function() {
+        var box = $(".content");
+        var newValue = contentLastMarginLeft;
+        contentLastMarginLeft = box.css("margin-left");
+        box.animate({
+            "margin-left": newValue
+        }, 500);
     });
 });
