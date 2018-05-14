@@ -28,14 +28,27 @@ $(document).ready(function() {
         }
     });
 
+    $("#item-ciano").click(function() {
+        var div_apps_ciano = $("#div-apps");
+        div_apps_ciano.animate({
+            width: 'toggle'
+        }, function(){
+            var div_ciano = $("#content-ciano");
+            div_ciano.animate({
+                width: 'toggle'
+            });
+        });        
+    });
 
-    var contentLastMarginLeft = 0;
-    $(".wrap").click(function() {
-        var box = $(".content");
-        var newValue = contentLastMarginLeft;
-        contentLastMarginLeft = box.css("margin-left");
-        box.animate({
-            "margin-left": newValue
-        }, 500);
+    $("#item-karim").click(function() {
+        var div_apps_karim = $("#div-apps");
+        div_apps_karim.animate({
+            width: 'toggle'
+        }, function(){
+            var div_karim = $("#content-karim");
+            div_karim.animate({
+                width: 'toggle'
+            });
+        });        
     });
 });
