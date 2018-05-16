@@ -37,10 +37,34 @@ $(document).ready(function() {
             div_ciano.animate({
                 width: 'toggle'
             });
-        });        
+        });      
     });
 
     $("#item-karim").click(function() {
+        var div_apps_karim = $("#div-apps");
+        div_apps_karim.animate({
+            width: 'toggle'
+        }, function(){
+            var div_karim = $("#content-karim");
+            div_karim.animate({
+                width: 'toggle'
+            });
+        });        
+    });
+
+    $("#back-arrow-ciano").click(function() {
+        var div_apps_ciano = $("#div-apps");
+        div_apps_ciano.animate({
+            width: 'toggle'
+        }, function(){
+            var div_ciano = $("#content-ciano");
+            div_ciano.animate({
+                width: 'toggle'
+            });
+        });        
+    });
+
+    $("#back-arrow-karim").click(function() {
         var div_apps_karim = $("#div-apps");
         div_apps_karim.animate({
             width: 'toggle'
